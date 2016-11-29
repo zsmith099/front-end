@@ -34,7 +34,7 @@ integrations:
     - integrationName: trigger-img-front-end
       type: webhook
       payload:
-        - versionName=$BRANCH.$BUILD_NUMBER
+        - versionName=$IMAGE_TAG
       branches:
         only:
           - master
